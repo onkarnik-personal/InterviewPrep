@@ -91,8 +91,9 @@
 | Problem | Difficulty | Pattern | Notes |
 |---|---|---|---|
 | Top K Frequent Elements | Medium | HashMap + Bucket Sort | buckets[freq] = nums with that freq; scan right-to-left to collect top k |
+| Product of Array Except Self | Medium | Prefix / Suffix Product | prefixArr[i] = prefixArr[i-1] * nums[i-1]; same for suffix right-to-left |
 
-**What clicked:** Bucket sort avoids O(n log n) sort — place each num at index=freq, scan from end. Max freq is bounded by n so array size is n+1.
+**What clicked:** Bucket sort avoids O(n log n) sort. Prefix/suffix arrays carry a running product — each index builds on the previous, not recomputed from scratch.
 
 **Revisit:** None
 

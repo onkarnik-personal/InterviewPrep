@@ -86,15 +86,15 @@
 ---
 
 ### Day 2 — Apr 12, 2026
-**Pattern Focus:**
+**Pattern Focus:** HashMap + Bucket Sort
 
 | Problem | Difficulty | Pattern | Notes |
 |---|---|---|---|
-| | | | |
+| Top K Frequent Elements | Medium | HashMap + Bucket Sort | buckets[freq] = nums with that freq; scan right-to-left to collect top k |
 
-**What clicked:**
+**What clicked:** Bucket sort avoids O(n log n) sort — place each num at index=freq, scan from end. Max freq is bounded by n so array size is n+1.
 
-**Revisit:**
+**Revisit:** None
 
 ---
 <!-- Copy the Day block above for each new session -->

@@ -24,7 +24,7 @@
 - [x] Valid Anagram
 - [x] Group Anagrams
 - [x] Contains Duplicate
-- [ ] Top K Frequent Elements
+- [x] Top K Frequent Elements
 - [ ] Product of Array Except Self
 - [ ] Valid Sudoku
 - [ ] Encode and Decode Strings

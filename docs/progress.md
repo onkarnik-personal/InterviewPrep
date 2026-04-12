@@ -97,5 +97,9 @@
 
 **Revisit:** None
 
+**CS Fundamentals:**
+- Process vs Thread — fully covered (see os.md)
+- Context Switching — partially covered (PCB, state save/load, illusion of parallelism); resume next session
+
 ---
 <!-- Copy the Day block above for each new session -->

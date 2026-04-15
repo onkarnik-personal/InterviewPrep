@@ -28,7 +28,7 @@
 - [x] Product of Array Except Self
 - [ ] Valid Sudoku
 - [x] Encode and Decode Strings
-- [ ] Longest Consecutive Sequence
+- [x] Longest Consecutive Sequence
 
 ### Week 3 — Two Pointers
 - [ ] Valid Palindrome

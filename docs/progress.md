@@ -115,4 +115,16 @@
 **Revisit:** None
 
 ---
+### Day 4 — Apr 15, 2026
+**Pattern Focus:** HashSet
+
+| Problem | Difficulty | Pattern | Notes |
+|---|---|---|---|
+| Longest Consecutive Sequence | Medium | HashSet | Iterate over Set not array — duplicates cause O(n²) if you loop nums |
+
+**What clicked:** Only start counting from a number where `n-1` doesn't exist. Iterating over the Set (not the array) ensures each unique number is processed once → O(n).
+
+**Revisit:** None
+
+---
 <!-- Copy the Day block above for each new session -->

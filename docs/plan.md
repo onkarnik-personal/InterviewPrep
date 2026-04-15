@@ -27,7 +27,7 @@
 - [x] Top K Frequent Elements
 - [x] Product of Array Except Self
 - [ ] Valid Sudoku
-- [ ] Encode and Decode Strings
+- [x] Encode and Decode Strings
 - [ ] Longest Consecutive Sequence
 
 ### Week 3 — Two Pointers

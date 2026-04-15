@@ -92,14 +92,27 @@
 |---|---|---|---|
 | Top K Frequent Elements | Medium | HashMap + Bucket Sort | buckets[freq] = nums with that freq; scan right-to-left to collect top k |
 | Product of Array Except Self | Medium | Prefix / Suffix Product | prefixArr[i] = prefixArr[i-1] * nums[i-1]; same for suffix right-to-left |
+| Valid Sudoku | Medium | HashSet | Dropped — restart later |
 
 **What clicked:** Bucket sort avoids O(n log n) sort. Prefix/suffix arrays carry a running product — each index builds on the previous, not recomputed from scratch.
 
-**Revisit:** None
+**Revisit:** Valid Sudoku — HashSet logic was fine, got tripped up by 2D matrix traversal (box indexing). Restart when comfortable with matrix problems.
 
 **CS Fundamentals:**
 - Process vs Thread — fully covered (see os.md)
 - Context Switching — partially covered (PCB, state save/load, illusion of parallelism); resume next session
+
+---
+### Day 3 — Apr 14, 2026
+**Pattern Focus:** String Encoding
+
+| Problem | Difficulty | Pattern | Notes |
+|---|---|---|---|
+| Encode and Decode Strings | Medium | String Encoding / Length-Prefix | Length-prefix with `#` separator; use length to slice, not split |
+
+**What clicked:** Can't use a plain delimiter — strings may contain it. Prefix each string with `len#` so decode always reads the length first, then slices exactly that many chars. The `#` inside strings doesn't matter because you never split on it.
+
+**Revisit:** None
 
 ---
 <!-- Copy the Day block above for each new session -->

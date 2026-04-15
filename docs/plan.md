@@ -154,8 +154,8 @@
 | Networks (HTTP, DNS, TCP/UDP) | Decent | Revise and hold |
 
 ### OS Topics to Cover
-- [ ] Process vs Thread
-- [ ] Context switching
+- [x] Process vs Thread
+- [x] Context switching
 - [ ] Deadlock — conditions, prevention
 - [ ] Memory management (stack vs heap)
 - [ ] Mutex vs Semaphore

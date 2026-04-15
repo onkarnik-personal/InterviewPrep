@@ -8,6 +8,30 @@
 
 ---
 
+## CS Fundamentals Progress
+
+### OS
+| Topic | Status |
+|---|---|
+| Process vs Thread | ✅ |
+| Context Switching | ✅ |
+| Node.js Worker Threads | ✅ |
+| Deadlock | ⬜ |
+| Memory Management | ⬜ |
+| Mutex vs Semaphore | ⬜ |
+
+### DBMS
+| Topic | Status |
+|---|---|
+| ACID, Normalization, Indexing, Joins, Transactions | ⬜ |
+
+### Networks
+| Topic | Status |
+|---|---|
+| HTTP/S, TCP/UDP, DNS, REST vs GraphQL, WebSockets | ⬜ |
+
+---
+
 ## Pre-Prep History (solved before Apr 2026)
 > These count as "seen" but may need a revisit — some are old (2023) and forgotten.
 
@@ -125,6 +149,10 @@
 **What clicked:** Only start counting from a number where `n-1` doesn't exist. Iterating over the Set (not the array) ensures each unique number is processed once → O(n).
 
 **Revisit:** None
+
+**CS Fundamentals:**
+- Context Switching ✅ — cost (TLB flush, cache thrash), triggers, thread vs process switch cost
+- Node.js Worker Threads ✅ — why they exist, how they work, postMessage, SharedArrayBuffer, vs child_process
 
 ---
 <!-- Copy the Day block above for each new session -->

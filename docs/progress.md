@@ -155,4 +155,17 @@
 - Node.js Worker Threads ✅ — why they exist, how they work, postMessage, SharedArrayBuffer, vs child_process
 
 ---
+### Day 5 — Apr 17, 2026
+**Pattern Focus:** Matrix Traversal (warm-up for Valid Sudoku)
+
+| Problem | Difficulty | Pattern | Notes |
+|---|---|---|---|
+| Transpose Matrix | Easy | Matrix Traversal | Allocate fresh result with `Array.from`; `result[j][i] = matrix[i][j]` |
+| Rotate Image | Medium | Matrix Traversal | Transpose in-place then reverse each row |
+
+**What clicked:** `result = matrix` is a reference, not a copy — always allocate fresh. Transpose formula: swap row/col indices.
+
+**Revisit:** None
+
+---
 <!-- Copy the Day block above for each new session -->

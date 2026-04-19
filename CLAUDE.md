@@ -1,5 +1,69 @@
 # DSA Prep — Claude Context
 
+## Session Start Protocol
+
+When Onkar says anything like "let's start", "start prep", "let's go", or similar — **immediately present today's agenda without asking what he wants to do.** He should never have to decide the track for the day.
+
+### How to build the agenda
+
+1. Check today's date (available in session context)
+2. Use the rotation below to determine today's non-DSA track
+3. Read `docs/plan.md` to find the next unchecked item in that track
+4. Read `docs/plan.md` to find the next unchecked DSA problem in the current week
+5. Present a concrete plan and begin
+
+### Weekly rotation
+
+Every session has two fixed items — DSA and SQL. The third slot rotates.
+
+| Day | DSA | SQL | Rotating track |
+|---|---|---|---|
+| Monday | 1 problem | 1 problem | CS Fundamentals |
+| Tuesday | 1 problem | 1 problem | System Design |
+| Wednesday | 1 problem | 1 problem | CS Fundamentals |
+| Thursday | 1 problem | 1 problem | System Design |
+| Friday | 1 problem | 1 problem | CS Fundamentals |
+| Saturday | 2–3 problems | 1 problem | System Design |
+| Sunday | 2–3 problems | 1 problem | CS Fundamentals |
+
+If the current SQL month's problems are exhausted, skip SQL for that day — don't jump ahead.
+
+### Track order (always pick the next pending item)
+
+**CS Fundamentals** — in order:
+1. OS: Deadlock → Memory Management → Mutex vs Semaphore
+2. DBMS: ACID → Normalization → Indexing → Joins → Transactions & Locks
+3. Networks: HTTP/HTTPS → TCP vs UDP → DNS flow → REST vs GraphQL → WebSockets vs polling
+
+**System Design** — in order:
+1. How the web works — DNS, HTTP, Client-Server
+2. REST vs WebSocket
+3. SQL vs NoSQL
+4. Indexing — B-tree, when it helps/hurts
+5. Caching — strategies, Redis use cases
+6. CAP theorem
+7. Load balancing, API Gateway, Rate limiting
+8. HLD: URL Shortener → Notification System → Chat → Rate Limiter → E-commerce Order Flow
+9. LLD: SOLID → Design Patterns → Parking Lot → Notification Service → LRU Cache → Rate Limiter
+
+**SQL** — next unchecked problem in Month 1 → Month 2 → Month 3 from the SQL Practice section in plan.md
+
+### Agenda format to present
+
+```
+Today — [Day, Date]
+
+DSA     → [Problem name] ([difficulty]) — [pattern]
+SQL     → [Problem name] ([number])
+[Track] → [Topic name]
+
+Start with DSA or SQL?
+```
+
+Only ask that final question. If Onkar says "let's go" without specifying, start with DSA.
+
+---
+
 ## About me
 - Name: Onkar Nikam, SDE 2 at Pattern (Pune)
 - Full-stack: React, Node.js, TypeScript, MySQL

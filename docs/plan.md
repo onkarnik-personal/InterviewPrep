@@ -19,7 +19,7 @@
 
 > Goal: Be comfortable with easy problems in < 10 mins. Crack mediums with hints.
 
-### Week 1-2 — Arrays & Strings + HashMap
+### Week 1 — Arrays & Strings + HashMap ✅
 - [x] Two Sum
 - [x] Valid Anagram
 - [x] Group Anagrams
@@ -30,31 +30,37 @@
 - [x] Encode and Decode Strings
 - [x] Longest Consecutive Sequence
 
-### Week 3 — Two Pointers
+### Week 2 — Two Pointers
 - [ ] Valid Palindrome
 - [ ] Two Sum II (sorted)
 - [ ] 3Sum
 - [ ] Container With Most Water
 - [ ] Trapping Rain Water
+- [ ] Move Zeroes (283)
+- [ ] Squares of a Sorted Array (977)
+- [ ] Remove Duplicates from Sorted Array II (80)
 
-### Week 4 — Sliding Window
+### Week 3 — Sliding Window
 - [ ] Best Time to Buy and Sell Stock
 - [x] Longest Substring Without Repeating Characters
 - [ ] Longest Repeating Character Replacement
 - [ ] Permutation in String
 - [ ] Minimum Window Substring
 
----
-
-## Month 2 — Core DS (Stack, Queue, Binary Search, Linked List, Trees)
-
-> Goal: Solve mediums independently. Start timing yourself (target < 20 mins).
-
-### Week 5-6 — Stack & Binary Search
+### Week 4 — Stack
 - [x] Valid Parentheses
 - [ ] Min Stack
 - [ ] Evaluate Reverse Polish Notation
 - [ ] Daily Temperatures
+- [ ] Car Fleet
+
+---
+
+## Month 2 — Core DS (Binary Search, Linked List, Trees)
+
+> Goal: Solve mediums independently. Start timing yourself (target < 20 mins).
+
+### Week 5 — Binary Search
 - [ ] Binary Search
 - [ ] Koko Eating Bananas
 - [x] Search Insert Position (35)
@@ -62,7 +68,7 @@
 - [x] Find First and Last Position of Element in Sorted Array (34)
 - [ ] Find Minimum in Rotated Sorted Array
 
-### Week 7 — Linked List
+### Week 6 — Linked List
 - [ ] Reverse Linked List
 - [x] Merge Two Sorted Lists
 - [ ] Reorder List
@@ -70,7 +76,7 @@
 - [x] Linked List Cycle
 - [ ] LRU Cache
 
-### Week 8 — Trees
+### Week 7 — Trees
 - [ ] Invert Binary Tree
 - [ ] Max Depth of Binary Tree
 - [ ] Diameter of Binary Tree
@@ -88,7 +94,7 @@
 
 > Goal: Solve mediums in < 15 mins. Attempt hards. Do mock interviews.
 
-### Week 9-10 — Graphs
+### Week 8-9 — Graphs
 - [ ] Number of Islands
 - [ ] Clone Graph
 - [ ] Max Area of Island
@@ -97,7 +103,7 @@
 - [ ] Number of Connected Components
 - [ ] Graph Valid Tree
 
-### Week 11 — Dynamic Programming
+### Week 10 — Dynamic Programming
 - [x] Climbing Stairs
 - [ ] House Robber
 - [ ] Longest Common Subsequence
@@ -105,7 +111,7 @@
 - [ ] 0/1 Knapsack
 - [x] Longest Increasing Subsequence
 
-### Week 12 — Mock Interviews + Weak Area Revision
+### Week 11-12 — Mock Interviews + Weak Area Revision
 - [ ] 2 mock interviews/week (use Pramp or a friend)
 - [ ] Re-solve all "Revisit" problems from progress.md
 - [ ] Review all pattern notes in /patterns/
@@ -176,27 +182,33 @@
 
 ---
 
-## SQL Practice (parallel, woven into Month 1–2)
+## SQL Practice (daily, alongside DSA)
 
 > Goal: Build real SQL fluency — write complex queries from scratch without AI help, own schema design, and bring this skill into daily work at Pattern, not just interviews.
 > Files live in `problems/sql/` — each is a self-contained `.sql` file with schema, test data, and solution.
 
-### Tier 1 — Core patterns (start here)
+### Month 1 — Core patterns + joins
 - [ ] Second Highest Salary (176) — NULL handling, LIMIT/OFFSET, subquery
 - [ ] Employees Earning More Than Their Managers (181) — self join
 - [ ] Duplicate Emails (182) — GROUP BY + HAVING
 - [ ] Customers Who Never Order (183) — LEFT JOIN vs NOT IN
-- [ ] Department Highest Salary (184) — GROUP BY + subquery vs window function
-
-### Tier 2 — Window functions (your gap)
-- [ ] Rank Scores (178) — DENSE_RANK vs naive ORDER BY
-- [ ] Department Top 3 Salaries (185) — DENSE_RANK OVER PARTITION BY
-- [ ] Nth Highest Salary (177) — parameterized subquery
-
-### Tier 3 — Real-world patterns
-- [ ] Consecutive Available Seats (603) — self join, range logic
+- [ ] Department Highest Salary (184) — GROUP BY + subquery
 - [ ] Rising Temperature (197) — date arithmetic, self join
-- [ ] Game Play Analysis I–IV (511–514) — aggregation, first event per user
+- [ ] Recyclable and Low Fat Products (1757) — basic WHERE filter (warm-up)
+- [ ] Find Customer Referee (584) — NULL comparison gotcha
+
+### Month 2 — Window functions (your gap)
+- [ ] Rank Scores (178) — DENSE_RANK vs naive ORDER BY
+- [ ] Nth Highest Salary (177) — parameterized subquery
+- [ ] Department Top 3 Salaries (185) — DENSE_RANK OVER PARTITION BY
+- [ ] Consecutive Available Seats (603) — self join, range logic
+- [ ] Game Play Analysis I (511) — MIN date per user
+- [ ] Game Play Analysis IV (534) — window + date comparison
+
+### Month 3 — Hard + schema design
+- [ ] Human Traffic of Stadium (601) — consecutive rows, complex condition
+- [ ] Trips and Users (262) — multi-table join + rate calculation
+- [ ] Design a schema from scratch (Pattern use case — TBD)
 
 ---
 

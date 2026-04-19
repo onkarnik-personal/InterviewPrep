@@ -4,6 +4,7 @@
   "description": "",
   "main": "index.js",
   "scripts": {
+    "solve": "node run.js",
     "format": "prettier --write .",
     "format:check": "prettier --check ."
   },
@@ -12,6 +13,7 @@
   "license": "ISC",
   "type": "commonjs",
   "devDependencies": {
-    "prettier": "^3.8.2"
+    "prettier": "^3.8.2",
+    "tsx": "^4.21.0"
   }
 }

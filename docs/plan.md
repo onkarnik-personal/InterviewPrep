@@ -176,6 +176,30 @@
 
 ---
 
+## SQL Practice (parallel, woven into Month 1–2)
+
+> Goal: Build real SQL fluency — write complex queries from scratch without AI help, own schema design, and bring this skill into daily work at Pattern, not just interviews.
+> Files live in `problems/sql/` — each is a self-contained `.sql` file with schema, test data, and solution.
+
+### Tier 1 — Core patterns (start here)
+- [ ] Second Highest Salary (176) — NULL handling, LIMIT/OFFSET, subquery
+- [ ] Employees Earning More Than Their Managers (181) — self join
+- [ ] Duplicate Emails (182) — GROUP BY + HAVING
+- [ ] Customers Who Never Order (183) — LEFT JOIN vs NOT IN
+- [ ] Department Highest Salary (184) — GROUP BY + subquery vs window function
+
+### Tier 2 — Window functions (your gap)
+- [ ] Rank Scores (178) — DENSE_RANK vs naive ORDER BY
+- [ ] Department Top 3 Salaries (185) — DENSE_RANK OVER PARTITION BY
+- [ ] Nth Highest Salary (177) — parameterized subquery
+
+### Tier 3 — Real-world patterns
+- [ ] Consecutive Available Seats (603) — self join, range logic
+- [ ] Rising Temperature (197) — date arithmetic, self join
+- [ ] Game Play Analysis I–IV (511–514) — aggregation, first event per user
+
+---
+
 ## Notes
 - Don't chase hard problems yet — consistency > difficulty
 - After solving, always ask: "What's the pattern? When would I use this?"

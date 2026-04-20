@@ -23,7 +23,8 @@
 ### DBMS
 | Topic | Status |
 |---|---|
-| ACID, Normalization, Indexing, Joins, Transactions | ⬜ |
+| ACID | ✅ |
+| Normalization, Indexing, Joins, Transactions | ⬜ |
 
 ### Networks
 | Topic | Status |
@@ -167,6 +168,20 @@
 
 **Revisit:** None
 
+
+---
+### Day 6 — Apr 20, 2026
+**Pattern Focus:** SQL — NULL handling / Scalar Subquery
+
+| Problem | Difficulty | Pattern | Notes |
+|---|---|---|---|
+| Second Highest Salary (176) | Medium | Scalar Subquery | `SELECT (subquery) AS col` returns NULL when subquery is empty — bare LIMIT/OFFSET returns empty set |
+
+**What clicked:** Wrapping in a scalar subquery coerces empty → NULL. DISTINCT + ORDER BY DESC + OFFSET 1 gets the 2nd highest.
+
+**Revisit:** None
+
+| Valid Palindrome | Easy | Two Pointers | Two pointers inward, skip non-alphanumeric, lowercase before compare |
 
 ---
 <!-- Copy the Day block above for each new session -->

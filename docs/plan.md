@@ -31,7 +31,7 @@
 - [x] Longest Consecutive Sequence
 
 ### Week 2 — Two Pointers
-- [ ] Valid Palindrome
+- [x] Valid Palindrome
 - [ ] Two Sum II (sorted)
 - [ ] 3Sum
 - [ ] Container With Most Water
@@ -188,7 +188,7 @@
 > Files live in `problems/sql/` — each is a self-contained `.sql` file with schema, test data, and solution.
 
 ### Month 1 — Core patterns + joins
-- [ ] Second Highest Salary (176) — NULL handling, LIMIT/OFFSET, subquery
+- [x] Second Highest Salary (176) — NULL handling, LIMIT/OFFSET, subquery
 - [ ] Employees Earning More Than Their Managers (181) — self join
 - [ ] Duplicate Emails (182) — GROUP BY + HAVING
 - [ ] Customers Who Never Order (183) — LEFT JOIN vs NOT IN

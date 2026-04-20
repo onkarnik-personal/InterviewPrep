@@ -27,8 +27,10 @@
 -- INSERT INTO Employee VALUES (1, 100);  -- single row case
 
 -- Solution
-SELECT
-  NULL;  -- replace with your query
-
+SELECT (SELECT DISTINCT salary 
+FROM Employee 
+ORDER BY salary DESC
+LIMIT 1
+OFFSET 1) as SecondHighestSalary;
 -- Expected (test 1): 200
 -- Expected (test 2): NULL

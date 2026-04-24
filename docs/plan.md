@@ -32,7 +32,7 @@
 
 ### Week 2 — Two Pointers
 - [x] Valid Palindrome
-- [ ] Two Sum II (sorted)
+- [x] Two Sum II (sorted)
 - [ ] 3Sum
 - [ ] Container With Most Water
 - [ ] Trapping Rain Water
@@ -123,7 +123,7 @@
 > Target: Explain architecture clearly, justify tradeoffs, relate to real work at Pattern.
 
 ### Month 1 — Core Concepts (theory + your own experience)
-- [ ] How the web works — DNS, HTTP, Client-Server
+- [x] How the web works — DNS, HTTP, Client-Server
 - [ ] REST vs WebSocket (you've used both — write it in your own words)
 - [ ] SQL vs NoSQL — when to use what
 - [ ] Indexing — what it is, B-tree, when it helps/hurts
@@ -189,7 +189,7 @@
 
 ### Month 1 — Core patterns + joins
 - [x] Second Highest Salary (176) — NULL handling, LIMIT/OFFSET, subquery
-- [ ] Employees Earning More Than Their Managers (181) — self join
+- [x] Employees Earning More Than Their Managers (181) — self join
 - [ ] Duplicate Emails (182) — GROUP BY + HAVING
 - [ ] Customers Who Never Order (183) — LEFT JOIN vs NOT IN
 - [ ] Department Highest Salary (184) — GROUP BY + subquery

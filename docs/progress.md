@@ -184,4 +184,25 @@
 | Valid Palindrome | Easy | Two Pointers | Two pointers inward, skip non-alphanumeric, lowercase before compare |
 
 ---
+### Day 7 — Apr 24, 2026
+**Pattern Focus:** SQL — Self Join
+
+| Problem | Difficulty | Pattern | Notes |
+|---|---|---|---|
+| Employees Earning More Than Managers (181) | Easy | Self Join | `INNER JOIN Employee e2 ON e1.managerId = e2.id` — self join is O(n), correlated subquery is O(n²) |
+
+**What clicked:** Self join = join a table to itself with two aliases. INNER JOIN auto-excludes NULLs (employees with no manager).
+
+**Revisit:** None
+
+| Two Sum II | Medium | Two Pointers | Sorted array → two pointers from both ends; sum too big → move right left, too small → move left right |
+
+**What clicked:** Two pointers exploit sorted order — every move is a deliberate decision, O(n).
+
+**Revisit:** None
+
+**System Design:**
+- How the web works ✅ — DNS hierarchy, TCP handshake, TLS handshake, HTTPS = HTTP + TLS, Perfect Forward Secrecy
+
+---
 <!-- Copy the Day block above for each new session -->

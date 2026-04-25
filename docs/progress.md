@@ -205,4 +205,21 @@
 - How the web works ✅ — DNS hierarchy, TCP handshake, TLS handshake, HTTPS = HTTP + TLS, Perfect Forward Secrecy
 
 ---
+### Day 8 — Apr 25, 2026
+**Pattern Focus:** SQL — GROUP BY + HAVING
+
+| Problem | Difficulty | Pattern | Notes |
+|---|---|---|---|
+| Duplicate Emails (182) | Easy | GROUP BY + HAVING | WHERE filters rows (pre-group), HAVING filters groups (post-group) |
+| Customers Who Never Order (183) | Easy | LEFT JOIN + NULL check | Customers on left; WHERE o.id IS NULL finds unmatched rows; NOT IN breaks on NULLs |
+| Department Highest Salary (184) | Medium | GROUP BY + subquery | Correlated subquery = O(n²); pre-aggregate with GROUP BY + JOIN = O(n) |
+| Rising Temperature (197) | Easy | Self join + date arithmetic | Alias same table twice; join on DATEDIFF = 1; WHERE compares temperatures |
+| Recyclable and Low Fat Products (1757) | Easy | Basic WHERE | SELECT specific columns, not * |
+| Find Customer Referee (584) | Easy | NULL comparison | NULL != 2 evaluates to NULL not TRUE — always handle NULL explicitly with IS NULL |
+
+**What clicked:** LEFT JOIN direction — the table you want ALL rows from goes on the left. COUNT(col) ignores NULLs, COUNT(*) doesn't. Correlated subquery = O(n²); pre-aggregate with GROUP BY + JOIN = O(n). Self join: alias same table twice, join on the relationship between the two copies.
+
+**Revisit:** Recognize simple patterns before reaching for subqueries — "no match" problems are always LEFT JOIN + IS NULL, no aggregation needed.
+
+---
 <!-- Copy the Day block above for each new session -->

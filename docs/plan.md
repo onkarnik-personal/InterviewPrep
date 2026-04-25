@@ -190,12 +190,12 @@
 ### Month 1 — Core patterns + joins
 - [x] Second Highest Salary (176) — NULL handling, LIMIT/OFFSET, subquery
 - [x] Employees Earning More Than Their Managers (181) — self join
-- [ ] Duplicate Emails (182) — GROUP BY + HAVING
-- [ ] Customers Who Never Order (183) — LEFT JOIN vs NOT IN
-- [ ] Department Highest Salary (184) — GROUP BY + subquery
-- [ ] Rising Temperature (197) — date arithmetic, self join
-- [ ] Recyclable and Low Fat Products (1757) — basic WHERE filter (warm-up)
-- [ ] Find Customer Referee (584) — NULL comparison gotcha
+- [x] Duplicate Emails (182) — GROUP BY + HAVING
+- [x] Customers Who Never Order (183) — LEFT JOIN vs NOT IN
+- [x] Department Highest Salary (184) — GROUP BY + subquery
+- [x] Rising Temperature (197) — date arithmetic, self join
+- [x] Recyclable and Low Fat Products (1757) — basic WHERE filter (warm-up)
+- [x] Find Customer Referee (584) — NULL comparison gotcha
 
 ### Month 2 — Window functions (your gap)
 - [ ] Rank Scores (178) — DENSE_RANK vs naive ORDER BY

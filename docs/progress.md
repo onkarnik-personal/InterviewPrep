@@ -4,7 +4,8 @@
 - **Prep Start Date:** Apr 11, 2026
 - **Target:** 3 months | Pune product-based companies
 - **Language:** TypeScript
-- **LeetCode Total:** ~51 solved (mix of Easy/Medium, pre-prep + prep)
+- **LeetCode Total:** 65 solved (pre-prep + prep)
+- **Solved during prep (Apr 2026+):** 21 (12 DSA + 9 SQL)
 
 ---
 
@@ -229,6 +230,10 @@
 |---|---|---|---|
 | Rank Scores (178) | Medium | Window Functions / DENSE_RANK | DENSE_RANK not RANK — no gaps after ties; `rank` is reserved in MySQL, use backticks |
 | Valid Sudoku (36) | Medium | HashSet / Matrix Traversal | Three separate sets for rows/cols/boxes; box cells = `board[boxRow*3 + i][boxCol*3 + j]`; remember `return true` |
+
+| 3Sum (15) | Medium | Two Pointers | Revisit — sort needs comparator; skip duplicates after push, not before |
+
+**Revisit:** 3Sum — duplicate skipping logic not fully internalized. Redo from scratch next session.
 
 ---
 <!-- Copy the Day block above for each new session -->

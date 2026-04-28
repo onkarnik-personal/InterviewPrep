@@ -26,7 +26,7 @@
 - [x] Contains Duplicate
 - [x] Top K Frequent Elements
 - [x] Product of Array Except Self
-- [ ] Valid Sudoku
+- [x] Valid Sudoku
 - [x] Encode and Decode Strings
 - [x] Longest Consecutive Sequence
 
@@ -198,7 +198,7 @@
 - [x] Find Customer Referee (584) — NULL comparison gotcha
 
 ### Month 2 — Window functions (your gap)
-- [ ] Rank Scores (178) — DENSE_RANK vs naive ORDER BY
+- [x] Rank Scores (178) — DENSE_RANK vs naive ORDER BY
 - [ ] Nth Highest Salary (177) — parameterized subquery
 - [ ] Department Top 3 Salaries (185) — DENSE_RANK OVER PARTITION BY
 - [ ] Consecutive Available Seats (603) — self join, range logic

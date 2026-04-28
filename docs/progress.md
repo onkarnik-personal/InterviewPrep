@@ -222,4 +222,13 @@
 **Revisit:** Recognize simple patterns before reaching for subqueries — "no match" problems are always LEFT JOIN + IS NULL, no aggregation needed.
 
 ---
+### Day 9 — Apr 27, 2026
+**Pattern Focus:** SQL — Window Functions / DENSE_RANK | HashSet / Matrix Traversal
+
+| Problem | Difficulty | Pattern | Notes |
+|---|---|---|---|
+| Rank Scores (178) | Medium | Window Functions / DENSE_RANK | DENSE_RANK not RANK — no gaps after ties; `rank` is reserved in MySQL, use backticks |
+| Valid Sudoku (36) | Medium | HashSet / Matrix Traversal | Three separate sets for rows/cols/boxes; box cells = `board[boxRow*3 + i][boxCol*3 + j]`; remember `return true` |
+
+---
 <!-- Copy the Day block above for each new session -->

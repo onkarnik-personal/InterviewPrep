@@ -99,15 +99,39 @@ An analytics API processing 100k orders. Without Worker Threads, one request fre
 
 ---
 
-## 4. Deadlock
+## 4. Deadlock ✅
 
-> Coming next session.
+A deadlock happens when two or more processes are each holding a resource and waiting for a resource held by the other — neither can proceed.
 
-### Topics to cover:
-- What is a deadlock
-- Four necessary conditions (Coffman conditions)
-- How to prevent / avoid / detect deadlock
-- Mutex vs Semaphore
+**Classic example:**
+- Process A holds the DB connection, wants the Redis lock
+- Process B holds the Redis lock, wants the DB connection
+- Both wait forever
+
+### Four necessary conditions (Coffman)
+
+All four must be true simultaneously for a deadlock to occur. Break any one and deadlock cannot happen.
+
+| Condition | Meaning |
+|---|---|
+| **Mutual Exclusion** | A resource can only be held by one process at a time |
+| **Hold and Wait** | A process holds one resource while waiting for another |
+| **No Preemption** | Resources can't be forcibly taken away — process must release voluntarily |
+| **Circular Wait** | A cycle: A waits for B, B waits for A |
+
+### How to prevent
+
+| Break this | How |
+|---|---|
+| Hold and Wait | Request all resources upfront before starting |
+| No Preemption | Allow OS to forcibly reclaim resources (used in CPU scheduling) |
+| Circular Wait | Enforce a global ordering — always acquire resources in the same order everywhere |
+
+Mutual exclusion is usually unavoidable (you can't share a truly exclusive resource).
+
+### Node.js / real-world example
+
+Two workers both need DB + Redis lock. If Worker 1 always acquires DB first then Redis, and Worker 2 does the same — circular wait is impossible. Lock ordering is the most practical prevention strategy.
 
 ---
 

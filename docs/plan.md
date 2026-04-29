@@ -33,8 +33,8 @@
 ### Week 2 — Two Pointers
 - [x] Valid Palindrome
 - [x] Two Sum II (sorted)
-- [ ] 3Sum
-- [ ] Container With Most Water
+- [x] 3Sum
+- [x] Container With Most Water
 - [ ] Trapping Rain Water
 - [ ] Move Zeroes (283)
 - [ ] Squares of a Sorted Array (977)
@@ -124,7 +124,7 @@
 
 ### Month 1 — Core Concepts (theory + your own experience)
 - [x] How the web works — DNS, HTTP, Client-Server
-- [ ] REST vs WebSocket (you've used both — write it in your own words)
+- [x] REST vs WebSocket (you've used both — write it in your own words)
 - [ ] SQL vs NoSQL — when to use what
 - [ ] Indexing — what it is, B-tree, when it helps/hurts
 - [ ] Caching — strategies (write-through, write-back, eviction), Redis use cases (you've used it)
@@ -162,7 +162,7 @@
 ### OS Topics to Cover
 - [x] Process vs Thread
 - [x] Context switching
-- [ ] Deadlock — conditions, prevention
+- [x] Deadlock — conditions, prevention
 - [ ] Memory management (stack vs heap)
 - [ ] Mutex vs Semaphore
 
@@ -199,7 +199,7 @@
 
 ### Month 2 — Window functions (your gap)
 - [x] Rank Scores (178) — DENSE_RANK vs naive ORDER BY
-- [ ] Nth Highest Salary (177) — parameterized subquery
+- [ ] Nth Highest Salary (177) — parameterized subquery WIP
 - [ ] Department Top 3 Salaries (185) — DENSE_RANK OVER PARTITION BY
 - [ ] Consecutive Available Seats (603) — self join, range logic
 - [ ] Game Play Analysis I (511) — MIN date per user

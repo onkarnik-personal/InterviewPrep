@@ -231,9 +231,16 @@
 | Rank Scores (178) | Medium | Window Functions / DENSE_RANK | DENSE_RANK not RANK — no gaps after ties; `rank` is reserved in MySQL, use backticks |
 | Valid Sudoku (36) | Medium | HashSet / Matrix Traversal | Three separate sets for rows/cols/boxes; box cells = `board[boxRow*3 + i][boxCol*3 + j]`; remember `return true` |
 
-| 3Sum (15) | Medium | Two Pointers | Revisit — sort needs comparator; skip duplicates after push, not before |
+| 3Sum (15) | Medium | Two Pointers | Sort first; fix i, two pointers L/R for pair summing to -nums[i]; skip dupes after push |
 
-**Revisit:** 3Sum — duplicate skipping logic not fully internalized. Redo from scratch next session.
+---
+### Day 10 — Apr 30, 2026
+**Pattern Focus:** Two Pointers
+
+| Problem | Difficulty | Pattern | Notes |
+|---|---|---|---|
+| 3Sum (15) | Medium | Two Pointers | Revisit ✅ — sort + fix i + two pointers; skip dupes after push |
+| Container With Most Water (11) | Medium | Two Pointers | area = min(h[l],h[r]) * (r-l); move shorter pointer inward |
 
 ---
 <!-- Copy the Day block above for each new session -->

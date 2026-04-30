@@ -5,7 +5,9 @@
       "Bash(mv progress.md plan.md docs/)",
       "Bash(mv patterns/hashmap.md docs/patterns/)",
       "Bash(rmdir patterns:*)",
-      "Bash(touch docs/cs-fundamentals/os.md docs/cs-fundamentals/dbms.md docs/cs-fundamentals/networks.md)"
+      "Bash(touch docs/cs-fundamentals/os.md docs/cs-fundamentals/dbms.md docs/cs-fundamentals/networks.md)",
+      "Bash(npx tsx *)",
+      "WebFetch(domain:beta.cruscible.com)"
     ]
   }
 }

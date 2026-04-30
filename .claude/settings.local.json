@@ -9,5 +9,9 @@
       "Bash(npx tsx *)",
       "WebFetch(domain:beta.cruscible.com)"
     ]
+  },
+  "statusLine": {
+    "type": "command",
+    "command": "jq -r '\"ctx \\(.context_window.used_percentage // 0)% used · \\(.context_window.remaining_percentage // 0)% remaining\"'"
   }
 }

@@ -4,8 +4,8 @@
 - **Prep Start Date:** Apr 11, 2026
 - **Target:** 3 months | Pune product-based companies
 - **Language:** TypeScript
-- **LeetCode Total:** 65 solved (pre-prep + prep)
-- **Solved during prep (Apr 2026+):** 21 (12 DSA + 9 SQL)
+- **LeetCode Total:** 67 solved (pre-prep + prep)
+- **Solved during prep (Apr 2026+):** 23 (14 DSA + 9 SQL)
 
 ---
 
@@ -241,6 +241,19 @@
 |---|---|---|---|
 | 3Sum (15) | Medium | Two Pointers | Revisit ✅ — sort + fix i + two pointers; skip dupes after push |
 | Container With Most Water (11) | Medium | Two Pointers | area = min(h[l],h[r]) * (r-l); move shorter pointer inward |
+
+---
+### Day 11 — May 5, 2026
+**Pattern Focus:** Two Pointers
+
+| Problem | Difficulty | Pattern | Notes |
+|---|---|---|---|
+| Trapping Rain Water (42) | Hard | Two Pointers | water at i = min(maxL, maxR) - height[i]; process smaller-max side; `+=` not `=` |
+| Move Zeroes (283) | Easy | Two Pointers | slow/fast: copy non-zeros to slow, fill rest with 0s |
+
+**What clicked:** Trapping Rain Water — process the side with the smaller max, it's the bottleneck. Move Zeroes — slow pointer tracks next non-zero position, fast scans ahead.
+
+**Revisit:** None
 
 ---
 <!-- Copy the Day block above for each new session -->

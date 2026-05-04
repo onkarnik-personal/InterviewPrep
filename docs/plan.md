@@ -35,8 +35,8 @@
 - [x] Two Sum II (sorted)
 - [x] 3Sum
 - [x] Container With Most Water
-- [ ] Trapping Rain Water
-- [ ] Move Zeroes (283)
+- [x] Trapping Rain Water
+- [x] Move Zeroes (283)
 - [ ] Squares of a Sorted Array (977)
 - [ ] Remove Duplicates from Sorted Array II (80)
 

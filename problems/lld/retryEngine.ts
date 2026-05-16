@@ -128,5 +128,28 @@ class RetryEngineContractImpl implements RetryEngineContract {
     private sleep(time: number): Promise<void> {
         return new Promise(resolve => setTimeout(resolve, time));
     }
-    
+
+    getNextRetryDelayMs(operationId: string): number {
+        const ops = this.operations.get(operationId);
+        if (!ops || ops.status !== 'RETRYING') return 0;
+        return this.computeDelay(ops.attempts + 1);
+    }
+
+    cancel(operationId: string): void {
+        const ops = this.operations.get(operationId);
+        if (!ops) return;
+        ops.cancelled = true;
+        ops.status = 'CANCELLED';
+    }
+
+    reset(operationId: string): void {
+        const ops = this.operations.get(operationId);
+        if (!ops) return;
+        ops.attempts = 0;
+        ops.cancelled = false;
+        ops.lastError = null;
+        ops.status = 'PENDING';
+        ops.timestamps = [];
+    } 
+
 }

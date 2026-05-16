@@ -37,7 +37,7 @@
 - [x] Container With Most Water
 - [x] Trapping Rain Water
 - [x] Move Zeroes (283)
-- [ ] Squares of a Sorted Array (977)
+- [x] Squares of a Sorted Array (977)
 - [ ] Remove Duplicates from Sorted Array II (80)
 
 ### Week 3 — Sliding Window

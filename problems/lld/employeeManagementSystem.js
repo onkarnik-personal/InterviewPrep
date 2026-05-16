@@ -95,7 +95,13 @@ class EmployeeManagementMemoryContractImpl {
     getDepartmentStats(department) {
         // → {count: 2, avgSalary: 85000.0, minSalary: 75000.0, maxSalary: 95000.0, totalSalary: 170000.0}
         const all = [...this.deptIndex.get(department) ?? new Set()].map((id) => this.store.get(id));
-        if(all.length === 0) return null;
+        if (all.length === 0) return {
+            count: 0,
+            avgSalary: 0,
+            minSalary: 0,
+            maxSalary: 0,
+            totalSalary: 0,
+        };
         const count = all.length;
         // sorts on salary
         all.sort((a,b) => a.salary - b.salary);

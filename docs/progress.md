@@ -256,4 +256,16 @@
 **Revisit:** None
 
 ---
+### Day 12 — May 5, 2026
+**Pattern Focus:** Two Pointers
+
+| Problem | Difficulty | Pattern | Notes |
+|---|---|---|---|
+| Squares of a Sorted Array (977) | Easy | Two Pointers | Fill result from back; compare abs(nums[l]) vs abs(nums[r]); r starts at end not 0 |
+
+**What clicked:** Largest squares are always at the two ends of a sorted array. Two pointers inward, fill result right-to-left.
+
+**Revisit:** None
+
+---
 <!-- Copy the Day block above for each new session -->

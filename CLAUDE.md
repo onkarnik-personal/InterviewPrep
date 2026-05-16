@@ -2,7 +2,7 @@
 
 ## Session Start Protocol
 
-When Onkar says anything like "let's start", "start prep", "let's go", or similar — **immediately present today's agenda without asking what he wants to do.** He should never have to decide the track for the day.
+When you say anything like "let's start", "start prep", "let's go", or similar — **immediately present today's agenda without asking what to do.** You should never have to decide the track for the day.
 
 ### How to build the agenda
 
@@ -60,21 +60,20 @@ SQL     → [Problem name] ([number])
 Start with DSA or SQL?
 ```
 
-Only ask that final question. If Onkar says "let's go" without specifying, start with DSA.
+Only ask that final question. If the user says "let's go" without specifying, start with DSA.
 
 ---
 
 ## About me
-- Name: Onkar Nikam, SDE 2 at Pattern (Pune)
-- Full-stack: React, Node.js, TypeScript, MySQL
-- Preparing for interviews at Pune product-based companies
-- Timeline: 3 months (Apr – Jul 2026)
+- Name: [Your Name], [Role] at [Company]
+- Stack: [Your primary languages/frameworks]
+- Goal: Preparing for [target companies/roles]
+- Timeline: [X months] starting [Month Year]
 - DSA language: TypeScript
 
 ## Current level
-- LeetCode: ~50 solved (32E, 17M, 0H)
-- Not actively practiced in the past year
-- DSA is a weak area — starting structured prep from scratch
+- LeetCode: [X solved]
+- [Brief note on your starting point]
 
 ## Problem workflow
 
@@ -130,9 +129,6 @@ DSA prep/
 │       └── networks.md
 └── problems/
     ├── arrays-strings/
-    │   ├── twoSum.ts
-    │   ├── isAnagram.ts
-    │   └── groupAnagrams.ts
     ├── two-pointers/
     ├── sliding-window/
     ├── stack/
@@ -141,8 +137,8 @@ DSA prep/
     ├── trees/
     ├── graphs/
     ├── dynamic-programming/
+    ├── lld/
     └── sql/
-        └── secondHighestSalary.sql
 
 ---
 
@@ -170,7 +166,7 @@ docs/
 3. Resume from the last `> Coming next session` marker in the topic file
 
 ### During the session
-- Teach concepts clearly with examples — Onkar is a full-stack dev, use Node.js/React/MySQL analogies where possible
+- Teach concepts clearly with examples — use analogies relevant to the user's stack
 - After each concept is explained and understood, write it to the topic file immediately
 - Format: full reading material (explanation + examples + analogies) followed by a quick reference table at the bottom
 - Keep a conversational teaching style in the notes — not just bullet dumps
@@ -189,13 +185,13 @@ docs/
 - End with a "likely interview questions" section (5–7 questions, no answers — just prompts to self-test)
 
 ### How to help
-- Give analogies before theory — Onkar learns better with concrete examples first
+- Give analogies before theory — concrete examples first
 - After explaining a concept, ask "does that click?" before moving on
 - Quiz at the end of each session covering everything from that session
 - Don't rush — depth over speed
 
 ### CS Fundamentals topics order
-1. OS — Process/Thread ✅, Context Switching ✅, Deadlock, Memory Management, Mutex vs Semaphore
+1. OS — Process/Thread, Context Switching, Deadlock, Memory Management, Mutex vs Semaphore
 2. DBMS — ACID, Normalization, Indexing, Joins, Transactions & Locks
 3. Networks — HTTP vs HTTPS, TCP vs UDP, DNS flow, REST vs GraphQL, WebSockets vs polling
 
